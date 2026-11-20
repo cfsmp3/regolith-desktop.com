@@ -69,6 +69,7 @@ Regolith version 3.0 onward replaces "i3-wm" with "wm" in Xresource keys.  The c
 | wm.font                                         | Window manager font                                                                                                 |
 | wm.gaps.inner.size                              | Default gap size between windows in pixels                                                                          |
 | wm.gaps.outer.size                              | Default gap size at screen edge in pixels                                                                           |
+| wm.keyboard.positional_bindings                 | `yes` keeps every key binding on the key it occupies on a US keyboard, whatever keyboard layout is active, in both sessions. Applies at the next reload of the window manager. Unset by default: bindings follow the characters of the active layout. |
 | wm.mod                                          | Key mapping for Super key. See the [i3 User Guide](https://i3wm.org/docs/userguide.html#_using_i3) for details.     |
 | wm.window.border.size                           | Default border size in pixels                                                                                       |
 | wm.workspace.01.name .. wm.workspace.19.name | Workspace Labels                                                                                                    |
